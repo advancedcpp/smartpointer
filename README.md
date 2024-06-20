@@ -91,7 +91,7 @@ int main() {
     return 0;
 }
 ```
-##Explanation of the Example:
+## Explanation of the Example:
 - std::make_shared: Used to create a shared_ptr instance pointing to a newly created MyClass object. It is preferred over new due to improved efficiency and exception safety.
 
 - Shared Ownership: ptr1 and ptr2 both share ownership of the same MyClass object. The object is destroyed only after both ptr1 and ptr2 are destroyed.

@@ -105,6 +105,8 @@ int main() {
 
 - Performance: While shared_ptr provides powerful memory management capabilities, it incurs overhead due to reference counting. For performance-critical scenarios, consider using unique_ptr or raw pointers where appropriate.
 
+### When is std::weak_ptr useful?
+
 ## Conclusion:
 shared_ptr in C++ is a powerful tool for managing dynamic memory allocation and ownership with shared semantics. It enhances code safety, reduces the risk of memory leaks, and simplifies memory management in complex applications. Understanding its usage and benefits is essential for writing modern and robust C++ code.
 
